@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    
+    padding: 0;  
+}
+nav {
+    color: #71c2ab;
+}
+h1 {
+    color: #71c2ab;
+    padding: 30pt;
+}
+.claim {
+    background-color: #71c2ab;
+    color: white;
+}
+h2 {
+    color: #71c2ab;
+    font-size: 20pt;
+    padding-bottom: 40pt;
+}
+h3 {
+    color: #71c2ab;
+    font-size: 20pt;
+    padding-bottom: 40pt;
+}
+.sizeCarrusel {
+    font-size: 40pt;
+}
+
+footer {
+    background-color: #71c2ab;
+    color: white;
+}
+.tabla {
+    border: 2pt solid #4ac69f;
+    margin: 5pt 100pt 50pt 250pt;
+    font-size: 16pt;
+}
+
+thead {
+    color: #4ac69f;
+}
+.benne {
+    font-family: 'Benne', serif;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.centrar {
+    text-align: center;
+}
+.titulo {
+    font-size: 35pt ;
+}
+.cuerpo {
+    font-size: 17pt;
+    margin-bottom: 30pt;
+    width: 700px;
+    margin-left: 400px;
+}
+video {
+    width: 50%;
+    margin: 50pt;    
+}
+ul {
+    list-style: none;
+}
+.vinetaListas {
+    list-style-type: disc;
+    margin-left: 20pt;
+}
+
+.margenFotos {
+    margin: 4pt;
+}
+
+.margenIndex {
+    margin: 50pt 0pt 20pt 0pt;
+}
+
+.margenServicios {
+    margin: 0pt 20pt 20pt 30pt;
+    font-size: 16pt;
+}
+
+.margenFooter {
+    margin: 50pt;
+    padding-right: 30pt;
+}
+
+
+.menuFlex li {
+    background-color: #71c2ab;
+    margin: 20pt;
+    padding: 10pt;
+    width: 90px;
+    height: 20px;
+    transition: all 2s;
+}
+
+.menuFlex li:hover {
+    height: 25px;
+    width: 95px;
+    padding: 20px;
+    background-color: white;
+    border: 3px solid #71c2ab;
+}
+
+/*.flexServicios section {
+    flex-basis: 300px;
+    margin: 40pt;
+    padding-bottom: 20pt;
+} */
+
+/* Flexbox */
+
+.padreFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menuFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+/*.flexServicios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} /*
+
+/* Grids */
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+}
+
+/* Media Queries 
+
+@media (max-width: 480px) {
+
+    h1 {
+        color: pink;
+    }
+}
+
+@media (min-width: 600px) {
+    h1 {
+        color: black;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        color: blue;
+    }
+} */
+
+/* Animaciones */
+
+#gradient {
+    background-image: linear-gradient(to top, white, #71c2ab);
+}
+
+.transform {
+    transform: translate(20px, 20px);
+}
+
+
+.iconos {
+    width: 70px;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
