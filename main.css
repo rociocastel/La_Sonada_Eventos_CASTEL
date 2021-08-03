@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #71c2ab;
+  font-size: 30pt;
+}
+
+h2 {
+  color: #71c2ab;
+  font-size: 20pt;
+  padding-bottom: 40pt;
+}
+
+h3 {
+  color: #71c2ab;
+  font-size: 20pt;
+  padding-bottom: 40pt;
+}
+
+.sizeCarrusel {
+  font-size: 40pt;
+}
+
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#71c2ab));
+  background-image: linear-gradient(to bottom, white, #71c2ab);
+  color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+}
+
+footer section {
+  margin: 100pt;
+  padding-right: 30pt;
+  padding-bottom: 10pt;
+}
+
+.benne {
+  font-family: 'Benne', serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.titulo {
+  font-size: 35pt;
+}
+
+.cuerpo {
+  font-size: 17pt;
+  margin-bottom: 30pt;
+  width: 700px;
+  margin-left: 400px;
+}
+
+video {
+  width: 50%;
+  margin: 50pt;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+  list-style: none;
+  color: gray;
+}
+
+.vinetaListas {
+  list-style-type: disc;
+  margin-left: 20pt;
+}
+
+.margenFotos {
+  margin: 4pt;
+}
+
+.margenIndex {
+  margin: 50pt 0pt 20pt 0pt;
+}
+
+.margenServicios {
+  margin: 0pt 20pt 20pt 30pt;
+  font-size: 16pt;
+}
+
+/* Grids */
+.grid1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 300px 300px;
+      grid-template-columns: 300px 300px 300px;
+  -ms-grid-rows: 100px 100px;
+      grid-template-rows: 100px 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 400px 400px;
+      grid-template-columns: 400px 400px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Animaciones */
+#gradient {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), to(#71c2ab));
+  background-image: linear-gradient(to top, white, #71c2ab);
+}
+
+.transform {
+  -webkit-transform: translate(20px, 20px);
+          transform: translate(20px, 20px);
+}
+
+.iconos {
+  width: 70px;
+  height: 70px;
+}
+/*# sourceMappingURL=main.css.map */

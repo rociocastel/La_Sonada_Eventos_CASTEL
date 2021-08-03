@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    
+    padding: 0;  
+}
+
+$verde: #71c2ab;
+
+@for $titulo from 1 to 3 {
+    h#{$titulo} {font-family: 'Roboto', sans-serif;}
+}
+
+
+h1 {
+    color: $verde;
+    @if 20+10 == 30 {font-size: 30pt}
+}
+
+h2 {
+    color: $verde;
+    @if 10+10 == 20 {font-size: 20pt}
+    padding-bottom: 40pt;
+}
+
+h3 {
+    color: $verde;
+    @if 10+10 == 20 {font-size: 20pt}
+    padding-bottom: 40pt;
+}
+.sizeCarrusel {
+    font-size: 40pt;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, white, $verde);
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+        section {
+            margin: 100pt;
+            padding-right: 30pt;
+            padding-bottom: 10pt;
+        }
+}
+
+.benne {
+    font-family: 'Benne', serif;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.centrar {
+    text-align: center;
+}
+.titulo {
+    font-size: 35pt ;
+}
+.cuerpo {
+    font-size: 17pt;
+    margin-bottom: 30pt;
+    width: 700px;
+    margin-left: 400px;
+}
+video {
+    width: 50%;
+    margin: 50pt;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+        li {
+            text-decoration: none;
+            list-style: none;
+        }
+            a {
+                text-decoration: none;
+                list-style: none;
+                color: gray;
+            }
+}
+.vinetaListas {
+    list-style-type: disc;
+    margin-left: 20pt;
+}
+
+.margenFotos {
+    margin: 4pt;
+}
+
+.margenIndex {
+    margin: 50pt 0pt 20pt 0pt;
+}
+
+.margenServicios {
+    margin: 0pt 20pt 20pt 30pt;
+    font-size: 16pt;
+}
+
+
+/* Grids */
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+}
+
+
+/* Animaciones */
+
+#gradient {
+    background-image: linear-gradient(to top, white, $verde);
+}
+
+.transform {
+    transform: translate(20px, 20px);
+}
+
+
+.iconos {
+    width: 70px;
+    height: 70px;
+}
+
